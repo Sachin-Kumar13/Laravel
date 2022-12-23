@@ -1,0 +1,37 @@
+Create new project 
+1. viw composer : composer create-project laravel/laravel example-app
+2. Laravel Install using composer : composer global require laravel/installer
+3. Create project using laravel  : laravel new example-app
+	A. cd example-app
+	B. php artisan serve
+
+Clone project from github
+1. composer install
+2. npm install
+3. npm run dev
+4. cp .env.example .env
+5. change database name  
+6. php artisan key:generate 
+7. php artisan migrate
+8. php artisan serve 
+
+
+Calendar syn 
+
+1. composer require league/oauth2-client microsoft/microsoft-graph
+php artisan serve
+
+Create new project 
+composer create-project laravel/laravel outlook_sync
+cd /home/ekanatechnologies/public_html
+
+
+Laravel Auth  :
+
+create project connect database 
+composer require laravel/jetstream
+php artisan jetstream:install livewire
+npm install
+npm run dev
+php artisan migrate
+php artisan serve
