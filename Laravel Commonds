@@ -15,6 +15,7 @@ Clone project from github
 7. php artisan migrate
 8. php artisan serve 
 
+php -S localhost:8000 -t public
 
 Calendar syn 
 
