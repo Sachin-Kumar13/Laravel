@@ -1,0 +1,10 @@
+select `branches`.`name` as 'Branch',`inventories`.`quantity`as 'Quantity',`products`.`name`,`products`.`sku`,`products`.`image`,`brands`.`name` as 'Brand',`categories`.`name` as 'Category'
+        from `products` 
+        inner join `inventories` 
+        	on `inventories`.`product_id` = `products`.`id` 
+        inner join `branches` 
+        	on `branches`.`id` = `inventories`.`branch_id`
+           inner join `brands` 
+        	on `brands`.`id` = `products`.`brand_id`
+            inner join `categories` 
+        	on `categories`.`id` = `products`.`category_id`;
